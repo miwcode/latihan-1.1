@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Ami</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+    @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comfortaa:wght@300..700&family=IBM+Plex+Sans+Arabic:wght@600&family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titan+One&display=swap");
+    @import url("scss/_variables.scss");
+    body {
+            font-family: "Poppins", sans-serif;
+            background: linear-gradient(to bottom, #ffffff, #cafff3);
+        }
+        
+        .container {
+            padding-top: 10px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: bolder;
+            color: #008080;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 3rem;
+            font-weight: bolder;
+        }
+
+        .profile-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto;
+        }
+
+        .profile-info {
+            margin-top: 30px;
+            color: #687f7f;
+            font-weight: 500;
+        }
+
+        .nav-link {
+            color: #8aaeae;
+            font-weight: 500;
+            font-size: small;
+        }
+
+        .nav-link:hover {
+            color: #006464;
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="./gambar/white no bg-02.png" alt="Bootstrap" width="60px" height="60px">
+          </a>
+          <nav class="navbar navbar-expand-lg" nav class="navbar navbar-expand-lg navbar-light">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="designs.html">Designs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            </nav>
+            <div class="container mt-5">
+                <div class="text-left">
+                  <h1 class="font-weight-bold font-size-40">Tentang Saya</h1>
+                  <div class="col-md-6">
+                  <p class="mb-4">Selamat datang di Portfolio Saya! Nama saya <b><i>Azmi</i></b>, seseorang
+                    yang sangat antusias dalam berbagai jenis desain. Desain yang Saya
+                    buat tentunya adalah desain yang unik dan menarik. Dari mulai <b>
+                        desain UI/UX, desain logo, desain grafis, desain poster</b> dan
+                    berbagai desain lainnya.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <h2 class="card-title mb-0 fs-1"><img src="https://img.icons8.com/?size=100&id=90T9TLIYz8Fx&format=png&color=000000" alt="" height="50%">70++</h2>
+                            <p class="card-text ">Terdapat lebih dari 70 pelanggan yang percaya dan puas dengan layanan order last.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <h2 class="card-title mb-0 fs-1"> <img src="https://img.icons8.com/?size=100&id=LlgB5a8aAr0G&format=png&color=000000" alt="" height="50%"> 4.9</h2>
+                            <p class="card-text">Tentunya, positif rating yang diberikan oleh para client.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col -md-4 mb-3">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <h2 class="card-title mb-0 fs-1"> <img src="https://img.icons8.com/?size=100&id=uC0ko2wF20yl&format=png&color=000000" alt="" height="50%"> 10</h2>
+                            <p class="card-text">Lebih dari 10 proyek yang telah berhasil diselesaikan dengan baik.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card h-600">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <p class="card-text"><img src="https://img.icons8.com/?size=15&id=88703&format=png&color=000000" alt=""> Copyright Azmi Nur Izza</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
